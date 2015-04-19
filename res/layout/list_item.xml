@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+    
+    
+    <LinearLayout 
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/layout_text">
+        
+        <TextView 
+        	android:id="@+id/tv_header"
+        	android:textAppearance="?android:attr/textAppearanceMedium"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="Setting"/>
+        
+        <TextView
+            android:id="@+id/tv_description"
+        	android:textAppearance="?android:attr/textAppearanceSmall"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="Description" />
+        
+        
+    </LinearLayout>
+    
+	<Switch
+	    android:id="@+id/switch_btn"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentRight="true"
+	    android:layout_alignParentTop="true"
+	    android:checked="true"
+	    android:textOff="OFF"
+	    android:textOn="ON" />
+
+</RelativeLayout>

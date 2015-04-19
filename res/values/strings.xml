@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PhoneBuddy</string>
+    <string name="action_settings">Settings</string>
+    <string name="ok">OK</string>
+    <string name="service_button_active">Service Active</string>
+    <string name="service_button_inactive">Service Inactive</string>
+    <string name="label_home_log">Log:</string>
+    <string name="label_home_companion">Buddy Phone Number:</string>
+    <string name="label_home_sample">ex. 9171234567</string>
+
+    <string-array name="dropdown_home_country">
+        <item>Philippines (+63)</item>
+        <item>United States of America (+1)</item>
+    </string-array>
+
+    <string name="dropdown_home_prompt">Select your country</string>
+    <string name="confirm">Confirm</string>
+    <string name="cancel">Cancel</string>
+    <string name="activate_call_forward">Activate Call Forwarding</string>
+    <string name="cancel_call_forward">Cancel Call Forwarding</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_confirmation">ConfirmationActivity</string>
+    <string name="whatBuddyNum">What\'s your Buddy\'s number?</string>
+    <string name="use_existing">Use Existing</string>
+    <string name="old_buddy">Old Buddy!</string>
+    <string name="new_buddy">New Buddy!</string>
+    <string name="title_activity_verification">VerificationActivity</string>
+    <string name="large_text">Large Text</string>
+    <string name="title_activity_service">ServiceActivity</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+</resources>
